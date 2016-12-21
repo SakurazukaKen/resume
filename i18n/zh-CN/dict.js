@@ -5,6 +5,9 @@ module.exports = {
     skill_type: {
         "frontend": "Web 前端",
         "backend": "Web 后端",
+        "mobile": "移动应用开发",
+        "game": "游戏编程",
+        "machinelearning": "机器学习",
         "miscellaneous": "其他"
     },
     education_type: {

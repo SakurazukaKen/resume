@@ -5,7 +5,10 @@ module.exports = {
     skill_type: {
         "frontend": "Frontend Development",
         "backend": "Backend Development",
-        "miscellaneous": "Miscellaneous"
+        "mobile": "Mobile Development",
+        "game": "Game Programming",
+        "machinelearning": "Machine Learning",
+        "miscellaneous": "Others"
     },
     education_type: {
         "undergraduate": "(Bachelor's degree)"

@@ -63,12 +63,34 @@ mixin skills_basic(item)
 
 
 mixin skills_frontend(item)
-  +skills_basic(item)(attributes)
-
+  ul.skills-description.skills-miscellaneous.timeline-content
+      each desc in item.item
+        li.skills-item-description
+          span!= highlight(desc)
 
 mixin skills_backend(item)
-  +skills_basic(item)(attributes)
+  ul.skills-description.skills-miscellaneous.timeline-content
+      each desc in item.item
+        li.skills-item-description
+          span!= highlight(desc)
 
+mixin skills_mobile(item)
+  ul.skills-description.skills-miscellaneous.timeline-content
+      each desc in item.item
+        li.skills-item-description
+          span!= highlight(desc)
+
+mixin skills_game(item)
+  ul.skills-description.skills-miscellaneous.timeline-content
+      each desc in item.item
+        li.skills-item-description
+          span!= highlight(desc)
+
+mixin skills_machinelearning(item)
+  ul.skills-description.skills-miscellaneous.timeline-content
+      each desc in item.item
+        li.skills-item-description
+          span!= highlight(desc)
 
 mixin skills_miscellaneous(item)
     ul.skills-description.skills-miscellaneous.timeline-content

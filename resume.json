@@ -1,123 +1,88 @@
 {
   "data_lang": "zh-CN",
   "ga_id": "UA-63818301-2",
-  "resume_title": "张秋怡 - 个人简历",
-  "name": "张秋怡",
-  "repo": "https://github.com/joyeecheung/resume.git",
+  "resume_title": "郑齐 - 个人简历",
+  "name": "郑齐",
   "job_description": ["前端工程师", "软件工程师"],
   "contact": {
-    "email": "joyeec9h3@gmail.com",
+    "email": "tidyzq@tidyzq.com",
     "wechat": {
-      "id": "joyee-cheung",
-      "qrcode": "static/wechat.svg"
-    },
-    "sinaweibo": {
-      "id": "SYSU_Joyee",
-      "url": "http://weibo.com/2930876843"
+      "id": "tidyzq",
+      "qrcode": "static/1479891176.svg"
     },
     "github": {
-      "id": "joyeecheung"
+      "id": "tidyzq"
     },
     "blog": {
-      "url": "http://joyeecheung.cnblogs.com"
-    }
+      "url": "http://tidyzq.com"
+    },
+    "phone": "+86 150 1315 1856"
   },
-  "links": [{
-    "type": "repo",
-    "url": "https://github.com/joyeecheung/resume"
-
-  }, {
-    "type": "pdf",
-    "url": "static/joyeecheung.pdf"
-
-  }, {
-    "type": "zhihu",
-    "url": "http://www.zhihu.com/people/zhang-qiu-yi-27/"
-  }, {
-    "type": "doubanbook",
-    "url": "http://book.douban.com/people/joyee-cheung/"
-  }],
+  "links": [],
   "education": [{
     "type": "undergraduate",
     "name": "中山大学",
     "major": "软件工程",
-    "start": "2012",
+    "start": "2014",
     "end": "2016",
     "honor": [
-      "2012 - 2013 学年度校**三等奖学金**",
-      "2013 - 2014 学年度校**一等奖学金**"
+      "2014 - 2015 学年度校**三等奖学金**",
+      "2015 - 2016 学年度校**二等奖学金**",
+      "2014 中山大学程序设计竞赛**二等奖**",
+      "2015 广东省大学生程序设计竞赛**三等奖**",
+      "2016 美国大学生数据建模竞赛 **Outstanding**",
+      "担任中山大学苹果俱乐部副社长",
+      "担任中山大学IBM俱乐部技术部副部长"
     ]
   }],
   "language": [{
-    "type": "english",
+    "type": "coding",
     "certificate": [{
-      "type": "CET-4",
-      "full": "710",
-      "score": "679"
+      "type": "C++",
+      "full": "100",
+      "score": "80"
     }, {
-      "type": "CET-6",
-      "full": "710",
-      "score": "616"
+      "type": "JS",
+      "full": "100",
+      "score": "90"
+    }, {
+      "type": "Python",
+      "full": "100",
+      "score": "85"
+    }, {
+      "type": "Swift",
+      "full": "100",
+      "score": "80"
     }],
-    "description": [
-      "能流畅阅读英文专业书籍、文档及其他资料",
-      "可无字幕观看 MOOC 课程、开发者大会视频",
-      "能够在英文邮件列表、Stack Overflow 等社区正常交流"
-    ]
+    "description": []
   }],
   "experience": [{
     "type": "internship",
-    "techtype": "frontend",
-    "place": "阿里巴巴 B2B-ICBU 数据应用部",
-    "start": "2015.07",
+    "techtype": "backend",
+    "place": "中山大学人机交互实验室",
+    "start": "2016.06",
     "end": "至今",
-    "name": "前端开发",
+    "name": "前后端开发",
     "description": [
-      "开发支持 i18n 的数据可视化组件",
-      "解决外部系统遗留的 bug 及浏览器兼容问题（`IE7+`）",
-      "使用 `SVG` 等技术开发内部系统数据可视化图表"
+      "为中山大学附属第六医院开发在线肿瘤诊疗系统",
+      "使用 `Loopback` 和 `NodeJS` 开发后端",
+      "在后台进行病患分类和数据分析",
+      "使用实验室自行开发的前端模板框架开发前端"
     ],
-    "stack": ["jqueryui", "bootstrap", "jquery", "grunt", "less"],
+    "stack": ["Loopback", "NodeJS", "gulp"],
     "compatibility": "IE8+"
-  }, {
-    "type": "internship",
-    "techtype": "frontend",
-    "place": "埃森哲广州 CDC",
-    "start": "2014.08",
-    "end": "2014.09",
-    "name": "前端开发",
-    "description": [
-      "参与某集团内部办公系统（OA）的前端开发，基于 `jQuery UI` 与 `Bootstrap` 实现前端组件及数据交互",
-      "解决遗留的 bug 及浏览器兼容问题（`IE8+`）",
-      "使用 `Grunt` 及 `Less` 完成皮肤开发"
-    ],
-    "stack": ["jqueryui", "bootstrap", "jquery", "grunt", "less"],
-    "compatibility": "IE8+"
-  }, {
-    "type": "internship",
-    "techtype": "nodejs",
-    "place": "东西科技",
-    "start": "2014.03",
-    "end": "2014.06",
-    "name": "Node.js 开发",
-    "description": [
-      "开发并维护封装微信公众平台 API 的 `Express 中间件`",
-      "使用 `Mocha`、`Chai` 及 `CoffeeScript` 编写单元测试",
-      "结合 `MongoDB` 开发微信公众平台 Demo",
-      "编写 `bash` 脚本，使用 `ApacheBench` 对后端程序进行压力测试与资源使用分析，辅助服务器选型"
-    ],
-    "stack": ["nodejs", "express", "mocha", "chai", "coffeescript", "mongodb"]
   }, {
     "type": "project",
     "techtype": "frontend",
     "project_type": "personal",
-    "name": "Resume",
-    "source": "https://github.com/joyeecheung/resume",
-    "demo": "http://joyeecheung.github.io/resume/",
+    "name": "Tidyzq-Blog",
+    "source": "https://github.com/Tidyzq/Tidyzq-Blog",
+    "demo": "http://tidyzq.com:3000",
     "description": [
-      "这份在线简历的生成器",
-      "从 JSON 读取数据，使用 `Jade` 模板生成 HTML，`Less` 生成**响应式**样式",
-      "使用 `Gulp` 驱动页面生成、架设本地服务器、帮助部署到 GitHub Pages"
+      "自行开发的博客系统",
+      "拥有在线的 `Markdown` 编辑器，使用自行修改的支持 `Latex` 语法的版本",
+      "静态和动态页面结合，静态部分使用 `Jade` 静态生成，动态部分为使用 `AngularJS` 的spa页面",
+      "使用 `Gulp` 驱动页面生成以及服务器部署"
     ],
     "stack": ["jade", "less", "gulp"],
     "compatibility": "IE9+"
@@ -125,90 +90,63 @@
     "type": "project",
     "techtype": "frontend",
     "project_type": "personal",
-    "name": "My Tech Diary",
-    "source": "https://github.com/joyeecheung/diary",
-    "demo": "http://joyeecheung.github.io/diary/",
+    "name": "Wochat",
+    "source": "https://github.com/Tidyzq/WoChat-Server",
     "description": [
-      "一个技术日记站点生成器，从 `git submodule` 中读取 `Markdown` 文件，结合 `Jade` 模板，生成静态站点",
-      "通过 `PostCSS` 将依照实验性 CSS 标准编写的代码转译使用",
-      "前端 JavaScript 代码以 `CommonJS` 形式组织，使用 `WebPack` 进行打包处理",
-      "使用 `Gulp` 驱动页面生成、架设本地服务器、帮助部署到 GitHub Pages"
+      "一个模仿微信的即时聊天应用",
+      "后端使用 `Express` 开发，自行设计的 RESTful API，通过自定义的 udp 协议进行通讯",
+      "支持多人聊天和朋友圈功能",
+      "拥有 UWP 和 iOS 客户端（未上架）"
     ],
     "stack": ["jade", "postcss", "markdown",  "webpack", "gulp"],
     "compatibility": "IE9+"
-  }, {
-    "type": "project",
-    "techtype": "frontend",
-    "project_type": "personal",
-    "name": "Virtual Bookcase",
-    "source": "https://github.com/joyeecheung/virtual-bookcase",
-    "description": [
-      "基于 `Three.js` 实现的 3D 虚拟图书室",
-      "使用 `Express` 与 `MongoDB` 提供图书数据 API",
-      "使用 `RequireJS` 加载模块，`Grunt` 驱动工作流，`Web Worker` 优化图像处理"
-    ],
-    "stack": ["three.js", "mongodb", "express"],
-    "compatibility": "IE10+"
   }],
   "skills": [{
     "type": "frontend",
-    "item": [{
-      "summary": "`HTML` / `CSS`",
-      "description": [
-        "能够编写语义化的 `HTML`，模块化的 `CSS`，实现较复杂的布局与动画",
-        "熟悉已标准化的 `HTML5` / `CSS3` 新特性，实验项目中能尝试使用未广泛实现的新标准"
-      ]
-    }, {
-      "summary": "`ECMAScript`（`JavaScript`）",
-      "description": [
-        "熟悉 `ECMAScript`（`JavaScript`），对 `JavaScript 引擎`及相关 JIT 技术有一定的了解",
-        "了解 `ECMAScript` 新标准与相关后处理工具并能在项目中使用"
-      ]
-    }, {
-      "summary": "`DOM` / `BOM` 及常见 `Web API`",
-      "description": [
-        "熟悉原生 `DOM` 与 `BOM` 的使用及相关标准（W3C / WHATWG），有桌面 / 移动端前端组件的开发经验",
-        "对 `WebGL` / `Web Workers` / `WebSocket` / `Web Components` / `SVG` 等 API 有一定的使用经验",
-        "阅读过 `WebKit` / `Blink` 源码中的部分实现，了解常见的 Web API **兼容性**问题及其解决方案"
-      ]
-    }, {
-      "summary": "前端工程实践",
-      "description": [
-        "使用 `Meteor` / `AngularJS` / `Polymer` 编写过简单的 CRUD SPA，了解 `Backbone.js` / `React` 及前端 `MV*` 模型",
-        "熟悉 `jQuery` / `jQuery UI` / `Bootstrap` 的使用、定制与扩展, 阅读过部分源代码",
-        "在项目中使用过 `Sea.js` / `RequireJS` / `Browserify` / `Bower` / `WebPack` 等多种模块化解决方案",
-        "在项目中使用过 `Less` / `Sass` / `PostCSS` / `CoffeeScript` / `TypeScript` 等预处理/后处理工具",
-        "日常使用 `Grunt` 或 `Gulp` 改进工作流",
-        "掌握基本的前端兼容性处理、性能优化知识与技巧，并能在项目中加以实践"
-      ]
-    }]
+    "item": [
+      "使用 `AngularJS` 编写过简单的 CRUD SPA，了解前端 `MV*` 模型",
+      "熟悉 `jQuery` / `Bootstrap` 的使用",
+      "在项目中使用过 `Less` / `Sass` / `LiveScript` 等预处理工具",
+      "熟悉使用 `Grunt` 或 `Gulp` 改进工作流"
+    ]
   }, {
     "type": "backend",
-    "item": [{
-      "summary": "`Node.js`",
-      "description": [
-        "能够使用 `Node.js API` / `Express` / `Koa` 搭建简单的后端程序与数据库交互、渲染模板及提供 `RESTful API`",
-        "了解异步 I/O 及事件驱动的服务器模型，掌握常见的**异步编程**解决方案",
-        "能编写简单的 `Express` / `Connect` / `Koa` 中间件，使用 `Mocha` 与 `Chai` 编写单元测试"
-      ]
-    }, {
-      "summary": "其他",
-      "description": [
-        "使用 `Tornado` / `Flask`（`Python`） 搭建过简单的服务器",
-        "有使用 `MongoDB` / `MySQL` 数据库，`Redis` 缓存，`nginx` 反向代理的经验",
-        "了解 `HTTP`（1.x / 2）、 `TCP/IP`、 `WebSocket` 等协议"
-      ]
-    }]
+    "item": [
+      "能够使用 `NodeJS` / `Express` / `Loopback` 搭建后端程序与数据库交互、渲染模板及提供 `RESTful API`",
+      "熟悉使用 `Mocha` 编写单元测试",
+      "有使用和配置 `MongoDB` / `MySQL` / `SQLite` 等常用数据库的经验",
+      "了解 `HTTP` / `TCP/IP` / `WebSocket` 等协议"
+    ]
+  }, {
+    "type": "mobile",
+    "item": [
+        "能够使用 `Swift` 和 `Xcode` 开发 iOS 客户端程序",
+        "能够使用 `CocoaPods` 协助开发",
+        "开发过多个小型网络应用"
+    ]
+  }, {
+    "type": "game",
+    "item": [
+      "能够使用 `Unity` / `cocos2d` / `OpenGL` 进行游戏开发",
+      "熟悉 `Unity` / `cocos2d` / `OpenGL` 下的 `MVC` 编程模型",
+      "阅读过《游戏引擎架构》",
+      "模仿过泡泡堂和 Minecraft"
+    ]
+  }, {
+    "type": "machinelearning",
+    "item": [
+      "能够使用 `Python` 编写简单的图像处理、爬虫、机器学习算法",
+      "熟悉 `Python` 下的 `numpy` / `matplotlib` / `iPython` 等第三方库",
+      "在 `coursera` 上学习过斯坦福机器学习课程",
+      "开发过机器学习应用，用于对新闻微博自动生成多文档摘要"
+    ]
   }, {
     "type": "miscellaneous",
     "item": [
       "三年 `Linux` 使用经验，熟悉常用命令与配置，能编写简单的 `bash` 脚本",
-      "熟悉多种平台与编译环境下的 `C` / `C++` 及其新标准，编写过简单的解释器、数据库引擎、3D 图形程序及 Node.js 扩展，能阅读 `WebKit` / `Blink、V8` 等常接触项目的源代码并加以利用",
-      "熟悉 `Python`，能实现简单的数据及图像处理工具、自动化脚本、爬虫、机器学习算法及分布式程序（参见 GitHub）",
-      "具备基本的 `Web 安全`知识（`X.509` / `XSS` / `CSRF` 等）",
-      "能够使用 `LaTeX` 及 `Markdown` 编写得体的中英文文档或论文，具备良好的技术交流能力",
-      "日常使用 `Git` 与 `Sublime Text` / `Vim` 进行开发，也乐于尝试新工具",
-      "能够使用 `Photoshop` / `Illustrator` 完成简单的设计"
+      "熟练使用 `ssh` 进行服务器管理，能够配置 `nginx` / `forever` / `iptables` 等服务器常用工具",
+      "能够使用 `LaTeX` / `Markdown` 编写得体的中英文文档",
+      "熟练使用 `Git` / `Sublime Text` 等工具进行开发"
     ]
   }]
 }
