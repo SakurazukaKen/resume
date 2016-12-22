@@ -1,27 +1,45 @@
+mixin avatar(data)
+  img.avatar-img(src=data.src, alt=data.id)&attributes(attributes)
+
+mixin gender(gender)
+  dd.introduction-item.introduction-gender.horizontal-layout&attributes(attributes)
+    label.introduction-label.column-4.column= introduction_type.gender
+    span.introduction-content.column-8.column= gender
+
+mixin birthday(birthday)
+  dd.introduction-item.introduction-birthday.horizontal-layout&attributes(attributes)
+    label.introduction-label.column-4.column= introduction_type.birthday
+    span.introduction-content.column-8.column= birthday
+
+mixin residence(residence)
+  dd.introduction-item.introduction-residence.horizontal-layout&attributes(attributes)
+    label.introduction-label.column-4.column= introduction_type.residence
+    span.introduction-content.column-8.column= residence
+
 mixin phone(number)
-  li.contact-phone&attributes(attributes)= number
+  dd.contact-item.contact-phone&attributes(attributes)= number
 
 mixin email(addr)
-  li.contact-email&attributes(attributes)
+  dd.contact-item.contact-email&attributes(attributes)
     a(href="mailto://" + addr)= addr
 
 mixin sinaweibo(data)
-  li.contact-sinaweibo&attributes(attributes)
+  dd.contact-item.contact-sinaweibo&attributes(attributes)
     a(href=data.url)= data.id
 
 mixin github(data)
-  li.contact-github&attributes(attributes)
+  dd.contact-item.contact-github&attributes(attributes)
     a(href="https://github.com/" + data.id)= "https://github.com/" + data.id
 
 mixin blog(data)
-  li.contact-blog&attributes(attributes)
+  dd.contact-item.contact-blog&attributes(attributes)
     a(href=data.url)= data.url
 
 mixin qrcode(data)
   img.qrcode-img(src=data.qrcode, alt=data.id)&attributes(attributes)
 
 mixin wechat(data)
-  li.contact-wechat&attributes(attributes)= data.id
+  dd.contact-item.contact-wechat&attributes(attributes)= data.id
 
 mixin responsive(mixin_name, data, res_class)
   +#{mixin_name}(data)(class=res_class)
@@ -50,7 +68,6 @@ mixin certificate(certificate)
         dt.language-cert-type= cert.type
         dd.progress.language-cert-score
           .progress-bar(style="width: " + Math.floor(cert.score / cert.full * 100) + "%;")
-            span.progress-label= cert.score
 
 
 mixin skills_basic(item)

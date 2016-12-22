@@ -1,4 +1,9 @@
 module.exports = {
+    introduction_type: {
+        "gender": "性别",
+        "birthday": "生日",
+        "residence": "居住地"
+    },
     experience_type: {
         "internship": "（实习）"
     },
@@ -20,6 +25,14 @@ module.exports = {
         "pdf": "PDF 下载"
     },
     section_names: {
+        "introduction": {
+            "ch": "个人信息",
+            "en": "Introduction"
+        },
+        "contacts": {
+            "ch": "联系方式",
+            "en": "Contacts"
+        },
         "education": {
             "ch": "教育经历",
             "en": "Education"

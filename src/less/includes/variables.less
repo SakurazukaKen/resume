@@ -1,6 +1,8 @@
 //== Colors
-@text-color: @dark-color;
-@bg-color: @light-color;
+@text-color: @primary-dark;
+@bg-color: @primary-bright;
+@contrast-text-color: @primary-bright;
+@contrast-bg-color: @primary-color;
 @light-shadow: 3px 3px 9px rgba(0, 0, 0, 0.2);
 
 
@@ -35,8 +37,8 @@
 
 //== Links
 // -------------------------
-@link-color: @bright-color;
-@link-hover-color: @bright-contrast-color;
+@link-color: @primary-color;
+@link-hover-color: @secondary-color;
 @link-active-color: darken(@link-hover-color, 25%);
 
 //== Icons
@@ -105,8 +107,8 @@
 @padding-xs-vertical: 1px;
 @padding-xs-horizontal: 5px;
 
-@padding-container-vertical: 30px;
-@padding-container-horizontal: @padding-container-vertical + (@grid-gutter-width / 2);
+@padding-container-vertical: 24px;
+@padding-container-horizontal: 16px;
 
 
 @line-height-large: 1.33;
@@ -119,6 +121,10 @@
 @border-radius-circle: 100%;
 
 @border-divide: 2px solid @text-color;
+
+//== Header
+@header-text-color: @primary-bright;
+@header-bg-color: @primary-color;
 
 //== Section
 @sec-icon-size: 32px;
@@ -135,8 +141,9 @@
 @timeline-line-width: 4px;
 
 //== Progress
-@progress-fill-color: @bright-color;
-@progress-empty-color: @text-color;
-@progress-label-color: white;
+@progress-height: 12px;
+@progress-fill-color: @primary-color;
+@progress-empty-color: @primary-dark;
+@progress-label-color: @text-color;
 
 //== Sidebar

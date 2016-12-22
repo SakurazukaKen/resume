@@ -1,13 +1,21 @@
 {
   "data_lang": "zh-CN",
   "resume_title": "郑齐 - 个人简历",
+  "avatar": {
+    "id": "tidyzq",
+    "src": "static/avatar.png"
+  },
   "name": "郑齐",
-  "job_description": ["前端工程师", "软件工程师"],
+  "job_description": ["软件工程师"],
+  "introduction": {
+    "gender": "男",
+    "birthday": "1996.8",
+    "residence": "广州"
+  },
   "contact": {
     "email": "tidyzq@tidyzq.com",
     "wechat": {
-      "id": "tidyzq",
-      "qrcode": "static/1479891176.svg"
+      "id": "tidyzq"
     },
     "github": {
       "id": "tidyzq"
@@ -15,9 +23,8 @@
     "blog": {
       "url": "http://tidyzq.com"
     },
-    "phone": "+86 150 1315 1856"
+    "phone": "+86 150-1315-1856"
   },
-  "links": [],
   "education": [{
     "type": "undergraduate",
     "name": "中山大学",
@@ -30,8 +37,8 @@
       "2014 中山大学程序设计竞赛**二等奖**",
       "2015 广东省大学生程序设计竞赛**三等奖**",
       "2016 美国大学生数据建模竞赛 **Outstanding**",
-      "担任中山大学苹果俱乐部副社长",
-      "担任中山大学IBM俱乐部技术部副部长"
+      "担任中山大学苹果俱乐部**副社长**",
+      "担任中山大学IBM俱乐部技术部**副部长**"
     ]
   }],
   "language": [{
@@ -39,19 +46,19 @@
     "certificate": [{
       "type": "C++",
       "full": "100",
-      "score": "80"
+      "score": "60"
     }, {
-      "type": "JS",
+      "type": "JavaScript",
       "full": "100",
-      "score": "90"
+      "score": "80"
     }, {
       "type": "Python",
       "full": "100",
-      "score": "85"
+      "score": "70"
     }, {
       "type": "Swift",
       "full": "100",
-      "score": "80"
+      "score": "60"
     }],
     "description": []
   }],

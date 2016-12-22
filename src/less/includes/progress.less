@@ -1,16 +1,18 @@
 .progress {
+    height: @progress-height;
     border-radius: @border-radius-base;
-    background-color: @progress-empty-color;
+    background-color: @primary-dark;
     overflow: hidden;
 }
 
 .progress-bar {
-    background-color: @progress-fill-color;
+    height: @progress-height;
+    background-color: @primary-color;
     text-align: right;
     padding-right: @padding-small-horizontal;
 }
 
 .progress-label {
-    color: @progress-label-color;
+    color: @primary-bright;
     font-size: inherit;
 }

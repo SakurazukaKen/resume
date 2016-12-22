@@ -6,6 +6,7 @@
 .container {
   margin-right: auto;
   margin-left: auto;
+  position: relative;
 }
 
 .column {
@@ -51,16 +52,17 @@
 .loop-grid-columns(@grid-columns);
 
 .first {
-   padding-left: 0;
+    padding-left: 0;
 }
 
 .last {
-   padding-right: 0;
+    padding-right: 0;
 }
 
 .row {
     margin-left: -0.1px;
     margin-right: -0.1px;
+    position: relative;
     overflow: hidden;
 }
 
@@ -68,3 +70,19 @@
     overflow-y: hidden;
     zoom: 1;
 }
+
+.clear {
+    clear: both;
+    height: 0;
+}
+
+.vertical-layout {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.horizontal-layout {
+    display: flex;
+    flex-flow: row nowrap;
+}
+

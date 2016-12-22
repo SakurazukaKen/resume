@@ -1,0 +1,60 @@
+.contrast {
+    background-color: @primary-color;
+    color: @secondary-color;
+    * {
+      color: @secondary-color;
+    }
+    a {
+      color: @secondary-color;
+      &:link, &:visited {
+          color: @secondary-bright;
+      }
+
+      &:hover, &:active {
+          color: @secondary-dark;
+      }
+
+    }
+    strong,
+    .introduction-item::before,
+    .introduction-label,
+    .contact-item::before,
+    .education-name,
+    .education-major::before,
+    .education-honor::before,
+    .language-cert-type,
+    .sec-title-ch,
+    .progress-label {
+        color: @primary-bright;
+    }
+    .progress {
+        background-color: @secondary-dark;
+    }
+    .progress-bar {
+        background-color: @secondary-color;
+    }
+    .progress-label {
+        background-color: @secondary-color;
+    }
+    .sec-title-wrapper::before {
+        color: @primary-color;
+        background-color: @primary-bright;
+    }
+    .timeline {
+        border-color: @primary-bright;
+    }
+    .timeline-wrapper::after {
+        background-color: @primary-bright;
+    }
+    .timeline-title {
+        background-color: @primary-bright;
+        * {
+            color: @primary-color;
+            background-color: @primary-bright;
+        }
+    }
+    .timeline-item::before {
+        color: @primary-color;
+        background-color: @secondary-color;
+    }
+}

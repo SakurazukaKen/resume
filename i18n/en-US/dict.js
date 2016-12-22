@@ -1,4 +1,9 @@
 module.exports = {
+    introduction_type: {
+        "gender": "Gender",
+        "birthday": "Birthday",
+        "residence": "Residence"
+    },
     experience_type: {
         "internship": "(internship)"
     },
@@ -20,6 +25,14 @@ module.exports = {
         "pdf": "PDF"
     },
     section_names: {
+        "introduction": {
+            "ch": "Introduction",
+            "en": "Introduction"
+        },
+        "contacts": {
+            "ch": "Contacts",
+            "en": "Contacts"
+        },
         "education": {
             "ch": "Education",
             "en": "Education"

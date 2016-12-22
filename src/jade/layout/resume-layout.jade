@@ -8,36 +8,26 @@ block style
   link(rel='stylesheet', href="index.css")
 
 block header
-  header.row
-    figure.header-qrcode
-      +responsive("qrcode", contact.wechat, "invisible-lt-sm visible-print")
+  header.vertical-layout
+    if avatar
+      figure.avatar
+        +avatar(avatar)(invisible-lt-sm visible-print)
     section.title
       h1= name
       h2= job_description.join("/")
-    address
-      ul.contact
-        each item, key in contact
-          +#{key}(item)
-        +responsive("wechat", contact.wechat, "visible-lt-sm invisible-print")
-
-block content
-  article.content.row
-    article.column-6.first.column
-      block education
-      block language
-      block experience
-    article.column-6.last.column
-      block skills
-
-
-block footer
-  footer
-
-
 
 block sidebar
-  aside
-    block links
+  sidebar.content.column-4.vertical-layout.first.contrast
+    block header
+    block introduction
+    block contacts
+    block education
+    block language
+
+block content
+  content.content.column-8.vertical-layout.last
+    block experience
+    block skills
 
 block IEcondition
     <!--[if lte IE 8]>
